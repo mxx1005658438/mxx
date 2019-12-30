@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background: lemonchiffon;
+        }
+        .main{
+            margin: 0 auto;
+            width: 600px;
+            height: 600px;
+}
+        .more{
+            width: 340px;
+            height: 30px;
+            background: blue;
+            text-align: center;
+            margin-left: 75px;
+            margin-top: 10px;
+            color: white;
+            line-height: 30px;
+        }
+
+        .more:hover{
+            cursor: pointer;
+            background: #09aaff;
+        }
+
+        .size{
+            font-size: 12px;
+            margin-left: 74px;
+            margin-bottom: 8px;
+        }
+        .size input{
+            vertical-align: bottom;
+           
+        }
+      span{
+          width: 60px;
+          padding-right: 10px;
+          display: inline-block;
+          text-align: right;
+        
+      }
+      .width{
+          width: 170px;
+          height: 20px;
+      }
+      .small{
+          width: 170px;
+          height: 24px;
+      }
+      .input{
+          width: 340px;
+          height: 20px;
+      }
+      li{
+          height: 35px;
+          line-height: 35px;
+      }
+    </style>
+ <div class="main">
+     <ul>
+         <li>
+             <span>用户名</span>
+             <input disabled class="input" type="text" placeholder="请设置用户名">
+         </li>
+         <li>
+             <span>手机号</span>
+             <input class="input" type="text" placeholder="可用于登录和找回密码">
+         </li>
+         <li>
+                <span>密码</span>
+                <input class="input" type="text" placeholder="请设置登录密码">
+            </li>
+            <li>
+                <span>验证码</span>
+                <input  class="width" type="text" placeholder="请输入验证码">
+                <button class="small">获取短信验证码</button>
+            </li>
+           <div class="size">
+            <input type="checkbox"  >阅读并接受
+            <a href="">《百度用户协议》</a>及
+            <a href="">《百度隐私保护声明》</a>
+            </div>
+            <li class="more">
+                <span>注册</span>
+            </li>
+
+         
+     </ul>
+ </div> 
+
+</body>
+</html>

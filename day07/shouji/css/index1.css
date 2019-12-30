@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.phoneBox{
+    height:700px;
+    background: yellow;
+}
+.phone {
+    height: 614px;
+    width: 1226px;
+    background: pink;
+    margin: 0 auto;
+}
+.phone .top{
+    height: 58px;
+    line-height: 58px;
+    background: purple;
+}
+.phone h1{
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+    float: left;
+}
+.phone a{
+    font-size: 16px;
+    color: #424242;
+    float: right;
+}
+.phone .bottom .left{
+   height: 614px;
+   width: 234px;
+   background:url("../images/li.webp") center center no-repeat;
+   float: left;
+   background-size: 100%;
+}
+.phone .bottom .right{
+    width: 992px;
+    height: 614px;
+    background: lightcoral;
+    float: left;
+}
+.phone .bottom .right>li{
+    width: 234px;
+    height:300px;
+    background: lightblue;
+    float: left;
+    margin: 0 0 14px 14px;
+}
+

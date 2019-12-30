@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        /* 清除页面中所有元素自带的margin和padding */
+        margin:0;
+        padding:0;
+    }
+    ol,ul{
+      list-style:none;
+    }
+    a{
+        /* 清除a标签自带的下划线 */
+        text-decoration: none;
+        color:#333;
+    }
+    body{
+        background:linen ;
+    }
+    .main{
+        width:500px;
+        height: 500px;
+        border:2px dashed blueviolet;
+        margin:0 auto;
+        /* 向上的内填充 */
+        padding-top: 30px;
+        /* 向下的内填充 */
+        padding-bottom: 30px;
+    }
+    h2{
+        /* 让字体变正常粗细 */
+        font-weight: normal;
+    }
+  .more{
+    font-size: 14px;
+    /* 左边的距离 */
+    margin-left: 360px;
+}
+li{
+    height: 35px;
+    line-height: 35px;
+    text-indent: 30px;
+}
+/* 鼠标滑上nagli的状态 */
+li:hover{
+background: lightseagreen;
+}
+.specil{
+    color: lightpink;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+<h2>珠峰故事 <a href="" class="more">更多</a></h2>
+<ol>
+    <li>
+        <a href=""><span class="specil">珠峰十周年纪录片：</span>十周年风雨经历</a>
+    </li><li>
+        <a href=""><span class="specil">珠峰十周年纪录片：</span>十周年风雨经历</a>
+    </li>
+    <li>
+        <a href=""><span class="specil">珠峰十周年纪录片：</span>十周年风雨经历</a>
+    </li>
+    <li>
+        <a href=""><span class="specil">珠峰十周年纪录片：</span>十周年风雨经历</a>
+    </li>
+</ol>
+ </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a,.cart {
+            text-decoration: none;
+            color: #B0B0B0;
+        }
+
+        .cart,
+        a:hover {
+            color: #fff;
+        }
+
+        .cart:hover {
+            color: #ff6700;
+            background: white;
+        }
+
+        .clearfix::after {
+            content: "";
+            font-size: 0;
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .nav {
+            width: 1513px;
+            height: 40px;
+            background: #333333;
+        }
+
+        .banxin {
+            width: 1226px;
+            height: 40px;
+            margin: 0 auto;
+            line-height: 40px;
+            font-size: 12px;
+        }
+
+        .banxin .left {
+            float: left;
+        }
+        .banxin .right{
+            float: right;
+        }
+        .banxin .left span,.banxin .left a,.banxin .right span,.banxin .right a {
+            float: left;
+            margin: 0 4px;
+            /* margin: top; */
+        }
+        .cart{
+            
+            /* float: right; */
+          height: 40px;
+          width: 120px;
+          font-size: 12px;
+          margin-left: 10px;
+          text-align: center;
+          background: #424242;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- 大盒子 -->
+    <div class="nav clearfix">
+        <div class="banxin clearfix">
+            <div class="left ">
+                <a href="">小米商城</a>
+                <span>|</span>
+                <a href="">MIUI</a>
+                <span>|</span>
+                <a href="">IoT</a>
+                <span>|</span>
+                <a href="">云服务</a>
+                <span>|</span>
+                <a href="">金融</a>
+                <span>|</span>
+                <a href="">有品</a>
+                <span>|</span>
+                <a href="">小爱开放平台</a>
+                <span>|</span>
+                <a href="">企业团购</a>
+                <span>|</span>
+                <a href="">资质证照</a>
+                <span>|</span>
+                <a href="">协议规则</a>
+                <span>|</span>
+                <a href="">下载app</a>
+                <span>|</span>
+                <a href="">Select Location</a>
+
+            </div>
+            <div class="right ">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+                <span>|</span>
+                <a href="">消息通知</a>
+                <a href="" class="cart">购物车(0)</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

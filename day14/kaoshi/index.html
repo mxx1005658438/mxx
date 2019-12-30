@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth || document.body.clientWidth;
+            ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+</head>
+
+<body>
+    <header class="main">
+        <section class="nav">
+            <section class="md">
+                <section>热点</section>
+                <section>关注</section>
+            </section>
+        </section>
+        <section class="bottom">
+            <a class="name" href="">足球现场</a>
+            <a href="">足球生活</a>
+            <a href="">足球美女</a>
+        </section>
+    </header>
+    <main>
+        <ul>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+            <li class="img">
+                <img width="100%" src="image1/pic_03.jpg">
+                <p>小丸子小丸子</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="text">
+               <li>
+
+                   <a href="">
+                       <div class="icon"></div>
+                       <p>首页</p>
+                   </a>
+               </li>
+               <li>
+                   <a href="">
+                       <div class="icon"></div>
+                       <p>首页</p>
+                   </a>
+               </li>
+               <li>
+                    <a href="">
+                        <div class="icon1"></div>
+                    </a>
+                </li>
+               <li>
+                   <a href="">
+                       <div class="icon"></div>
+                       <p>首页</p>
+                   </a>
+               </li>
+               <li>
+                   <a href="">
+                       <div class="icon"></div>
+                       <p>首页</p>
+                   </a>
+               </li>
+              
+        </ul>
+    </footer>
+
+</body>
+
+</html>

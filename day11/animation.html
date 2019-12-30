@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background: lightskyblue;
+        /* 延迟时间 */
+        /* animation: run 2s linear 0s infinite; */
+        /* 当运动结束，停留在最后一帧*/
+        /* animation: run 2s linear 1s forwards; */
+        /* 如果动画中设置有延迟，backwards让动画快速的从第一帧开始执行 */
+        animation: run 2s linear 1s both;
+    }
+    @keyframes run {
+        0%{
+            transform: translate(0,0);
+        }
+        50%{
+            transform: translate(500px,0) scale(2);
+            background: magenta;
+        }
+        100%{
+            transform: translate(500px,500px);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

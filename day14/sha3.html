@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: black;
+    }
+    ul{
+        list-style:none;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background:white;
+        margin: 0 auto;
+        border-radius: 4px;
+        display: flex; 
+        padding: 10px;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .box1{
+        width: 20px;
+        height: 20px;
+        background:black;
+        border-radius: 50%;
+    }
+    .box2{
+        align-self: center;
+    }
+    .box3{
+        align-self: flex-end;
+    }
+    </style>
+</head>
+<body>
+   <ul class="box">
+      <li class="box1"></li>
+      <li class=" box1 box2"></li>
+      <li class=" box1 box3"></li>
+   </ul>
+</body>
+</html>

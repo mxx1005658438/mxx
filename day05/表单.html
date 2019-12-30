@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* outline 消除外面蓝色的线 resize 禁止拖动 */
+    textarea{
+        outline: none;
+        resize: none;
+    }
+    </style>
+</head>
+<body>
+    <!-- 表单 -->
+    <form action="">
+    <!-- 文本输入框 -->
+  <input type="text" placeholder="请输入用户名" autofocus required>
+    <!--autofocus自动获取焦点  required非空校验 -->
+  <!-- 密码输入 -->
+  <input type="password" placeholder="请输入密码" >
+  <!-- 提交 -->
+  <input type="submit">
+  <!-- 重置 -->
+  <input type="reset">
+  <!-- 按钮 -->
+  <input type="button" value="支付">
+  <!-- 单选按钮 -->
+  <input type="radio" >
+  <!-- 多选按钮  checked默认被选中 -->
+  <input type="checkbox" checked>
+  <button>支付</button>
+  <!-- cols -->
+      <textarea name="" id="" cols="10" rows="10"></textarea>
+<select name="" id="">
+    <option value="">北京</option>
+    <option value="" disabled>天津</option>
+    <option value="" selected>上海</option>
+</select>
+</form>
+</body>
+</html>

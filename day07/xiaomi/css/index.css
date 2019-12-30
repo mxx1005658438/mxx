@@ -1,0 +1,398 @@
+/* 重置样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.nav{
+height: 40px;
+background: #333;
+color: #b0b0b0;
+font-size: 12px;
+line-height: 40px;
+    }
+    .nav .line{
+        color: #424242;
+        margin-left: 3.6px;
+        margin-right: 3.6px;
+    }
+    .nav a{
+        color: #b0b0b0;
+    }
+    /* 版心 */
+    .md{
+        width: 1226px;
+        margin: 0 auto; 
+    }
+    .navIn{
+        height: 40px;
+    }
+    .navIn>.left{
+        /* width: 200px; */
+        height: 40px;
+        float: left;
+    }
+    .navIn>.left>span,.navIn>.left>a, .navIn>.right>span,.navIn>.right>a{
+        float:left;
+    }
+    .navIn>.right{
+        height: 40px;
+        float: right;
+    }
+    .navIn .cart{
+        background: #424242;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .navIn .cart:hover{
+        background: #fff;
+        color: #ff6700;
+    }
+    .nav a:hover{
+        color: #fff;
+    }
+.md{
+    margin: 0 auto;
+    width: 1226px;
+}
+.phoneBox{
+    color: #333;
+}
+.phoneBox .top{
+    height: 58px;
+    line-height: 58px;
+}
+h1{
+    float: left;
+    height: 58px;
+    font-weight: 200;
+}
+.phoneIn .allLinks{
+    float: right;
+}
+ h1 .allLinks {
+    height: 58px;
+    color: #333;
+    height: 58px;
+    line-height: 58px;
+ }
+ .phoneIn .left{
+     width: 234px;
+     height: 614px;
+     background: green;
+     background: url("../images/li.webp")center center no-repeat;
+     float: left;
+     background-size:cover ;
+ }
+ .phoneIn .right{
+     width: 992px;
+     height: 614px;
+     float: left;
+ }
+ .phoneIn .right>li{
+     width: 234px;
+     height: 300px;
+     background: #fff;
+     float: left;
+     margin-left:14px ;
+     margin-bottom:14px ;
+ }
+ /* 手机模块 */
+.md{
+    margin: 0 auto;
+    width: 1226px;
+}
+
+.phoneBox .top{
+    height: 58px;
+    line-height: 58px;
+}
+h1{
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    font-weight: 200;
+}
+.phoneIn .allLinks{
+    float: right;
+}
+ h1 .allLinks {
+    height: 58px;
+    color: #333;
+    height: 58px;
+    line-height: 58px;
+ }
+ .phoneIn .left{
+     width: 234px;
+     height: 614px;
+     background: green;
+     background: url("../images/li.webp")center center no-repeat;
+     float: left;
+     background-size:cover ;
+ }
+ .phoneIn .right{
+     width: 992px;
+     height: 614px;
+     float: left;
+ }
+ .phoneIn .right>li{
+     width: 234px;
+     height: 300px;
+     background:lemonchiffon;
+     float: left;
+     margin-left:14px ;
+     margin-bottom:14px ;
+ }
+ /* 广告条 */
+ .adv{
+     height: 120px;
+     background: url("../images/adv.webp") center center no-repeat;
+     margin-top: 22px;
+     margin-bottom: 22px;
+     display: block;
+ }
+ /* 家电模块 */
+ .homeBox .top{
+    width: 1226px;
+    height: 58px;
+    line-height: 58px;
+}
+.homeBox .top h1{
+    float: left;
+}
+.homeBox .top ul{
+    float: right;
+}
+.homeBox .top ul>li{
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+.current{
+    border-bottom: 2px solid #ff6700;
+    color: #ff6700;
+}
+ .bottom>li{
+    width: 234px;
+    height: 300px;
+    background:green;
+    margin-right:14px;
+    margin-bottom:14px;
+    float: left;
+}
+.bottom>li:nth-child(5),.bottom>li:nth-child(10),.bottom>li:nth-child(11){
+    margin-right: 0;
+}
+.bottom>li:first-child{
+    background:url("../images/re.webp")center center no-repeat;
+}
+.bottom>li:nth-child(6){
+    background: url("../images/sao.webp") center center no-repeat;
+}
+ .homeBox .bottom .item{
+    height: 143px;
+}
+/* 推拉式广告条 */
+.tui{
+    height: 120px;
+    background: url("../images/1.webp");
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+/* 智能模块 */
+.zhinen .top>a{
+  float: left;
+  font-size: 16px;
+  padding: 16px 0 0;
+}
+.zhinen .top{
+    height: 58px;
+    line-height: 58px;
+}
+.zhinen .name{
+    float: right;
+    margin-left: 30px;
+    display: block;
+}
+.zhinen .font{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.zhinen .name>a{
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    line-height: 27px;
+    
+}
+.zhinen .bottom1>li{
+    background: lightblue;
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.bottom1>li:nth-child(5),.bottom1>li:nth-child(10),.bottom1>li:nth-child(11){
+    margin-right: 0;
+}
+.zhinen .bottom1 .div{
+    height: 143px;
+}
+/* 智能猫眼 */
+.maoyannav{
+    width: 1226px;
+    height: 120px;
+    background: url("../images/3.webp")center center no-repeat;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.maoyanBox .top>h1{
+    float: left;
+}
+.maoyanBox .right{
+    float: right;
+    line-height: 27px;
+    font-size: 16px;
+    
+}
+.maoyanBox .right .re{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.maoyanBox .bottom>li{
+   width: 234px;
+   height: 300px;
+   background: lightgreen;
+}
+.maoyanBox  .bottom .name2{
+   height: 143px;
+}
+/* 空调 */
+.kong {
+    width: 1226px;
+    height: 120px;
+    background: url("../images/4.webp")center center no-repeat;
+   margin-top: 22px;
+   margin-bottom: 22px;
+}
+/* 空调模块 */
+   
+.kongBox{
+    width: 1226px;
+}
+.kongBox .top>a{
+    float: left;
+    font-size: 16px;
+    padding: 16px 0 0;
+  }
+  .kongBox .top{
+      height: 58px;
+      line-height: 58px;
+      margin-top: 15px;
+  }
+  .kongBox .name{
+      float: right;
+      margin-left: 30px;
+  }
+  .kongBox .font{
+      color: #ff6700;
+      border-bottom: 2px solid #ff6700;
+  }
+  .kongBox .name>a{
+      float: left;
+      margin-left: 30px;
+      margin-top: 15px;
+      line-height: 27px;
+  }
+  .kongBox .bottom3>li{
+    width: 234px;
+    height: 300px;
+    background: lightsalmon;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+ }
+ .bottom3>li:nth-child(5),.bottom3>li:nth-child(10),.bottom3>li:nth-child(11){
+     margin-right: 0;
+ }
+ .kongBox  .bottom3 .name3{
+    height: 143px;
+ } 
+ /* 手表广告条 */
+ .watch{
+     width: 1226px;
+     height: 120px;
+     margin-top: 22px;
+     margin-bottom: 22px;
+     background: url("../images/5.webp") center center no-repeat;
+ }
+ /* 手表模块 */
+ .watch .top {
+     float: left;
+     height: 58px;
+     line-height: 58px;
+ }
+ .top .right{
+     float: right;
+ }
+ .top .right>a{
+     float: left;
+     font-size: 16px;
+     padding: 16px 0 0;
+     margin-left: 30px;
+ }
+ .top .right .chu{
+     color: #ff6700;
+     border-bottom: 2px solid #ff6700;
+ }
+ .watchBox .bottom4>li{
+     width: 234px;
+     height: 300px;
+     background: lightskyblue;
+     float: left;
+     margin-right: 14px;
+     margin-bottom: 14px;
+ }
+.bottom4>li:nth-child(5),.bottom4>li:nth-child(10),.bottom4>li:nth-child(11){
+    margin-right: 0;
+}
+.watchBox .bottom4 .name4{
+    height: 143px;
+}
+/* 中性笔 */
+.pen{
+    width: 1226px;
+    height: 120px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    background: url("../images/5.webp") center center no-repeat;
+}
+.penBox .top .look{
+    float: right;
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    color: #000;
+}
+.penBox .top .look:hover{
+    color: #ff6700;
+}

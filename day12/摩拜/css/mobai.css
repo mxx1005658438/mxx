@@ -1,0 +1,77 @@
+/* 导航 */
+.banner{
+    background: url("../images/hero-bg-4.jpg") center center no-repeat;
+    background-size:100% 100% ;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+}
+.nav{
+    width: 1080px;
+    height: 80px;
+    padding: 8px 20px;
+    margin: 0 auto;
+}
+.nav .left{
+    color: #ffffff;
+    position: absolute;
+    top: 26px;
+    left: 200px;
+}
+.nav .right>a{
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 80px;
+    margin-left: 50px;
+}
+.nav .right .font{
+    margin-left: 700px;
+}
+.font h1{
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 67px;
+    margin-top: 330px;
+    margin-bottom: 30px;
+}
+.font a{
+    width:370px;
+    height:80px;
+    background:rgba(0,0, 0, 0.6);
+    color:#ffffff ;
+    font-size: 22px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.submit{
+    background: rgba(59,54, 48, 0.4);
+    width:  1519px;
+    height: 43px;
+    /* margin-top: 250px; */
+}
+.submit .body{
+    margin-left: 200px;
+    width: 50px;
+    height: 18px;
+    background: #ff6700;
+    border-radius: 4px;
+    float: left;
+}
+.body .headline{
+    float: left;
+    padding: 2px;
+    margin-left: 4px;
+    color: #fff;
+}
+.submit .item{
+    margin-left: 220px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+   
+}
+
+
+

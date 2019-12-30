@@ -1,0 +1,82 @@
+.phoneBox{
+    /* 为了方便观看，先写个高度和背景色，随后删掉 */
+    /* height: 700px; */
+    background: cornflowerblue;
+}
+/* 写所有版心宽度，水平居中 */
+.md{
+    width: 1226px;
+    margin: 0 auto;
+}
+/* 方便观看，给.phone写背景颜色和高度，宽度继承 */
+/* .phone{
+    height: 500px;
+    background: crimson;
+} */
+/* 写上下部分模块 */
+/* 写上部分的高度和背景，宽度可继承 */
+.phone .top{
+    /* height: 58px; */
+    line-height: 58px;
+    /* background: yellow; */
+}
+/* 补充上部分模块的内容，h3和a */
+/* h3是块元素，给h3增加左浮，给a增加右浮 */
+/* 一左一右浮动需要清浮动，top写的有高度可以不用清，但最好还是清浮动，放reset里 */
+/* 让文字居中，在top中加入行高 */
+/* 写h3的样式,字号，颜色，粗细 */
+/* 写more的样式，字号，颜色 */
+.phone h3{
+    float: left;
+    font-size: 22px;
+    color: #333;
+    font-weight: 200;
+}
+.phone .more{
+    float: right;
+    font-size: 16px;
+    color: #424242;
+}
+/* 写下部分高度和背景色 */
+/* .phone .bottom{
+    height: 614px;
+    background: darkgreen;
+} */
+/* 下部分分为左右两部分，写左右两部分 */
+/* 写下左部分的宽度和高度 */
+/* 写下左部分的背景 */
+.phone .bottom .left{
+    width: 234px;
+    height: 614px;
+    background: url("../images/mibg.webp") center center no-repeat;
+    float: left;
+    background-size: cover;
+}
+/* 写右部分总体宽度、高度、背景色 */
+/* 右部分会掉下去，因为是块级元素，所以需要浮动，left和right都浮 */
+/* 删掉bottom的高度，有内容去撑了 */
+/* 因为左右都浮动了，给父级元素bottom加clearfix */
+/* 尽量不把高度写死，不然改内容很麻烦，尽量让内容去撑 */
+.phone .bottom .right{
+    width: 992px;
+    height: 614px;
+    /* background: slategray; */
+    float: left;
+}
+/* 写li宽高，背景色 */
+/* li竖着排的，让它浮动 */
+/* li没有间隔缝隙，写margin */
+.phone .bottom .right>li{
+    width: 234px;
+    height: 300px;
+    background: lightgrey;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+/* 去掉right、bottom、top、phone的背景色 */
+/* 下左模块图片超出边框部分未显示，加入background-size: cover; */
+/* 下左图片可以点击，将div改成a */
+/* 将phoneBox的高去掉 */
+/* 将版心.phone的高度去掉 */
+/* 去掉top的高度，发现塌陷，给top里加clearfix */

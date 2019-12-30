@@ -1,0 +1,56 @@
+.box{
+    width: 1200px;
+    height: 83px;
+    background: lemonchiffon;
+    margin: 0 auto;
+    padding-top: 10px; 
+    
+}
+.md .left{
+    float: left;
+}
+.md .img,.md .ul, .md .ul1, .md .jianju{
+    float: left;
+}
+.md .ul1 .img1{
+    float: left;
+}
+.md .right{
+    float: right;
+}
+.md .top .ul>a, .md .top .ul1>a{
+    float: left;
+}
+.md .left .ul>a{
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 83px;
+    color:rgba(42,42,42,1); 
+    
+}
+.md .left .ul .color{
+    color:rgba(43, 125,209,1); 
+}
+.md .right .ul1, .md .right .jianju{
+    font-size: 14px;
+    font-weight: 400;
+    height: 14px;
+    line-height: 14px;
+    color: rgba(42,42, 42, 1);
+}
+.md .right .jianju{
+    margin-left: 50px;
+    line-height: 40px;
+}
+.md .top .right{
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+   
+}
+.md .top .zhuce{
+    margin-left: 50px;
+}
+
+

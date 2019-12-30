@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      /* 开局三步 */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    ol,ul{
+        list-style: none;
+    }
+    /* 给导航写高和背景色，宽度可继承 */
+    .nav{
+        height: 40px;
+        background: #333;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .nav a{
+        color: #b0b0b0;
+    }
+    /* 给版心写宽度，为了方便看，写高和背景色 */
+    /* 让版心在网页中间，加入margin: 0 auto; */
+    .md{
+        width: 1226px;
+        height: 40px;
+        /* background: yellow; */
+        margin: 0 auto;
+    }
+    /* 为了方便看，给left和right写宽高背景 */
+    /* 让left和right浮动 */
+    /* 写left内容 */
+    /* 写了left的内容后，将宽度取消，宽度不要写死，方便以后更改 */
+    .nav .left{
+        /* width: 200px; */
+        height: 40px;
+        /* background:lightblue ; */
+        float: left;
+    }
+    .nav .right{
+        /* width: 200px; */
+        height: 40px;
+        /* background:pink ;   */
+        float: right;
+    }
+    /* 写字体大小，直接在.nav里写 */
+    /* 给.nav下面的a写字体颜色 */
+    /* 字体在顶部，直接给.nav整体加行高（省去给左边加了后再给右边加），让字体居中 */
+    /* 去掉文字和竖线丨之间的缝隙，将left里的a和span浮动 */
+    .nav .left a,.nav .left span{
+        float: left;
+    }
+    /* 文字和竖线丨之间有一定距离，需要加上margin值 */
+    /* 给竖线丨加字体颜色 */
+    .nav .left span,.nav .right span{
+        margin: 0 3px;
+        color: #424242;
+    }
+    /* 将版心和left背景色删除 */
+    /* 鼠标滑到文字上，颜色变化，给.nav a加hover */
+    .nav a:hover{
+        color: #fff;
+    }
+    /* 写right内容 */
+    /* 给right划分两个块message和cart */
+    /* 写cart的宽高和背景色 */
+    .cart{
+        width: 120px;
+        height: 40px;
+        background: #424242;
+        color: #b0b0b0;
+        text-align: center;
+        margin-left: 20px;
+    }
+    /* 将right宽度去掉，不再限制，将right背景色去掉 */
+    /* 让right里的内容浮动 */
+    .nav .right .message,.nav .right .cart{
+        float: left;
+    }
+    /* 写cart的文字颜色，并且水平居中 */
+    /* 写right竖线丨的颜色，直接在.nav .left span后面加上,.nav .right span */
+    /* 购物车距文字左右太近，给购物车cart加margin-left */
+    /* 鼠标划上购物车，有背景颜色改变 */
+    .nav .cart:hover{
+        background: #fff;
+        color: #ff6700;
+    }
+    /* 鼠标放购物车上没有小手，将div改成a */
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="md">
+            <div class="left">
+                <a href="">小米商城</a>
+                <span>丨</span>
+                <a href="">MIUI</a>
+                <span>丨</span>
+                <a href="">IOT</a>
+                <span>丨</span>
+                <a href="">云服务</a>
+                <span>丨</span>
+                <a href="">金融</a>
+                <span>丨</span>
+                <a href="">有品</a>
+                <span>丨</span>
+                <a href="">小爱开放平台</a>
+                <span>丨</span>
+                <a href="">企业团购</a>
+                <span>丨</span>
+                <a href="">资质证照</a>
+                <span>丨</span>
+                <a href="">协议规则</a>
+                <span>丨</span>
+                <a href="">下载app</a>
+                <span>丨</span>
+                <a href="">Select Location</a>
+            </div>
+            <div class="right">
+                <div class="message">
+                    <a href="">登录</a>
+                    <span>丨</span>
+                    <a href="">注册</a>
+                    <span>丨</span>
+                    <a href="">消息通知</a>
+                </div>
+                <a class="cart" href="">
+                    购物车（0）
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

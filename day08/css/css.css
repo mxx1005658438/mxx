@@ -1,0 +1,33 @@
+ul,ol{
+    list-style: none;
+}
+/* ul>li:nth-child(1){
+    background: gold;
+}
+ul>li:nth-child(2){
+    background: pink;
+}
+ul>li:first-child{
+    background: indigo;
+}
+ul>li:last-child{
+    background: black;
+} */
+/* 第一个 */
+.main>h3:first-of-type{
+    background: plum;
+}
+/* 最后一个 */
+.main>h3:last-of-type{
+    background: green;
+}
+/* 倒数第几个 */
+.main>h3:nth-last-of-type(2){
+    background: hotpink;
+}
+.main>h3:nth-child(7){
+    background: blue;
+}
+.main>h3:nth-of-type(3){
+    background: yellow;
+}

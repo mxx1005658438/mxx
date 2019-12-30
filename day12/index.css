@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+.demo{
+    margin: 100 auto;
+    border-radius:8px ;
+    overflow: hidden;
+    width: 300px;
+}
+.demo li{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+
+}
+.demo li p{
+    height: 40px;
+    line-height: 40px;
+    background: #e5654c;
+    color: #fff;
+    padding-left: 10px;
+}
+.demo li+li{
+    border-top: 2px solid #d95d45;
+}
+.demo li:hover{
+    width: 200px;
+    height: 100%;
+}
+.demo li div{
+    height: 100%;
+    background: #474141;
+    color: #eee;
+    padding: 10px;
+  
+}
+   

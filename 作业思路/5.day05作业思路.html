@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 开局三步 */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    ol,ul{
+        list-style: none;
+    }
+    /* 写大盒子宽度，居中 */
+    /* 写大盒子整体字体尺寸 */
+    .main{
+        width: 500px;
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 50px;
+        margin-top: 50px;
+    }
+    /* 写input框的宽和高 */
+    /* 后代选择器，大盒子里面的div里面的input */
+    .main .item input{
+        width: 350px;
+        height: 40px;
+        padding-left: 10px;
+    }
+    /* 光标和input内文字距左边框的距离（内填充距离），在.main .item input（权重21）加padding-left */
+    /* 将span转换成行内块，然后写宽高 */
+    /* 让input框前的用户名等文字右对齐text-align: right; */
+    /* 写span和input间的距离margin-right: 20px; */
+    .main .item span{
+        display: inline-block;
+        width: 65px;
+        height: 40px;
+        text-align: right;
+        margin-right: 20px;
+    }
+    /* 给验证码的input加个类选择器，起名code */
+    /* 单.code权重不够，需加权重.main .item .code（权重30） */
+    /* 给验证码的input写宽 */
+    .main .item .code{
+        width: 178px;
+    }
+    /* 给获取验证码的a加个类选择器，起名getcode */
+    /* 给a写尺寸和背景色 */
+    /* a标签写宽高不起作用，转换成行内块 */
+    /* 让文字居中text-align: center;  line-height: 40px; */
+    /* 改文字颜色 */
+    .getcode{
+        width: 160px;
+        height: 40px;
+        background-color: lightskyblue;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+    }
+    /* 给协议的div加个类选择器，起名read */
+    /* 让协议文字对齐text-indent: 90px; */
+    /* 写协议文字大小 */
+    .read{
+        text-indent: 90px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    /* 写多选框的尺寸 */
+    .read input{
+        width: 13px;
+        height: 13px;
+        vertical-align: middle;
+    }
+    /* 写注册按钮尺寸，背景 */
+    /* 让注册按钮文字水平居中text-align: center; */
+    /* 让注册按钮块对齐margin-left: 90px; */
+    /* 注册按钮距离离协议距离太近margin-top: 20px; */
+    button{
+        width: 350px;
+        height: 50px;
+        background-color: lightskyblue;
+        text-align: center;
+        margin-left: 90px;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* 给整体大盒子加内填充 padding: 50px; */
+    /* 去掉按钮点击的边框线和边框border: none; outline: none; */
+    /* 改按钮字体颜色 */
+    /* 按钮鼠标滑上去有小手cursor: pointer; */
+    /* 改协议与验证码直接的距离margin-top: 15px; */
+    /* 让整体大盒子从上往中间来点.main  margin-top: 50px; */
+    /* 在.read input中写中线对齐vertical-align: middle; */
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item">
+            <span>用户名</span>
+            <input type="text" placeholder="请输入用户名">
+        </div>
+        <div class="item">
+                <span>手机号</span>
+                <input type="text" placeholder="用于登录和找回密码">
+        </div>
+        <div class="item">
+                <span>密码</span>
+                <input type="text" placeholder="请设置登录密码">
+        </div>
+        <div class="item">
+                <span>验证码</span>
+                <input class="code" type="text" placeholder="请输入验证码">
+                <a class="getcode" href="">获取短信验证码</a>
+        </div>
+        <div class="read">
+            <input type="checkbox">
+            阅读并接受
+            <a href="">《百度用户协议》</a>
+            及
+            <a href="">《百度隐私权保护声明》</a>
+        </div>
+        <button>注册</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: url("beij.webp") no-repeat;
+        position: relative;
+    }
+    .man {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 50%;
+    margin-left: -398px;
+    top: 352px;
+    background: url("hz.png") no-repeat;
+    animation: man 1.4s steps(8) infinite;
+    }
+    .man1{
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        left: 50%;
+        margin-left: -198px;
+        top: 356px;
+        background: url("bj.png") no-repeat;
+        animation: man1 1.4s steps(8) infinite;
+    }
+    .man2{
+        background: url("ts.png");
+        position: absolute;
+        width: 170px;
+        height: 240px;
+        left: 50%;
+        margin-left: -11px;
+        top: 326px;
+        animation: man2 1.4s steps(8) infinite;
+    }
+    .man3{
+        background: url("wj.png");
+        position: absolute;
+        width: 210px;
+        height: 200px;
+        left: 50%;
+        margin-left: 198px;
+        top: 372px;
+        animation: man3 1s steps(8) infinite;
+    }
+    @keyframes man{
+        100%{
+            background-position:-1600px 0;
+        }
+    }
+    @keyframes man1{
+        100%{
+            background-position:-1600px 0;
+        }
+    }
+    @keyframes man2{
+        100%{
+            background-position:-1360px 0;
+        }
+    }
+    @keyframes man3{
+        100%{
+            background-position:-1680px 0;
+        }
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="man"></div>
+    <div class="man1"></div>
+    <div class="man2"></div>
+    <div class="man3"></div>
+</body>
+</html>

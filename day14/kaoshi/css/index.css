@@ -1,0 +1,100 @@
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 0.6rem;
+    background: green;
+    display: flex;
+    align-items: center;
+}
+.nav .md{
+    width: 2rem;
+    height: 0.3rem;
+    background: rgba(59,54,48,0.4);
+    border-radius: 0.18rem 0.18rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.bottom{
+    display: flex;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    background: #fff;
+}
+.bottom>a{
+    flex: 1;
+    text-align: center;
+    color: #000;
+}
+.bottom .name{
+    border-bottom: 2px solid green;
+}
+
+main{
+    flex: 1;
+    overflow: auto;
+}
+main>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .img>p{
+    margin-left: 1rem;
+}
+main .img{
+    width: 49%;
+    background-size: 100%; 
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 0.6rem;
+ 
+    
+}
+footer .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text .icon1 {
+    background: url("../image1/zxj_03.png")center center no-repeat;
+    background-size:100% ;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.text{
+    display:flex;
+}
+.text>li{
+    flex:1;
+}
+.text a{
+    display:block;
+}
+.text .icon{
+    background: url("../image1/cart.png")center center no-repeat;
+    width: 0.24rem;
+    height: 0.22rem;
+    background-size: 100%;
+}
+.text>li>a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:0.6rem;
+    color: #000;
+}
